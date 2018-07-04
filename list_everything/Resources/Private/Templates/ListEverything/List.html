@@ -1,0 +1,11 @@
+<div class="row">
+	<f:for each="{listitems}" as="listitem">
+		<div class="col-lg-4">
+			<div class="dealer-box">
+				<h4>{listitem.name}</h4>
+				<div><f:format.html>{listitem.description}</f:format.html></div>
+				<strong class="plz">{listitem.listnumber}</strong>
+			</div>
+		</div>
+	</f:for>
+</div>
